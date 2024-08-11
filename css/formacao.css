@@ -1,0 +1,10 @@
+/* Arquivo de estilização da página formação */
+
+/* Estilizando conteúdo dentro da Section com a classe box_formacao */
+.box_formacao {
+    color: #fff;
+}
+
+.box_formacao div ul li {
+    line-height: 25px;
+}

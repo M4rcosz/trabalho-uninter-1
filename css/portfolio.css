@@ -1,0 +1,32 @@
+/* Arquivo referente a página do portfólio */
+
+
+/* Estilizando conteúdo dentro da Section com a classe box_portfolio */
+.box_portfolio {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box_portfolio div h2 a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.box_portfolio div h2 a:hover {
+    transform: scale(1.25);
+    color: #f00;
+    /* Aumenta o link inteiro */
+}
+
+.box_portfolio div h2 a:hover svg {
+    transform: inherit;
+    /* O SVG herda a transformação do pai */
+}
+
+.box_portfolio div p {
+    text-align: justify;
+    line-height: 25px;
+}

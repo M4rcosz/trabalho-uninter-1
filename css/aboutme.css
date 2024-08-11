@@ -1,0 +1,38 @@
+/* Arquivo referente a estilização da página Sobre Mim */
+
+/* Estilizando conteúdo dentro da Section com a classe box_sobremim */
+.box_sobremim {
+    display: grid;
+    grid-template-columns: 35% auto;
+    align-items: center;
+    gap: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    height: fit-content;
+    line-height: 25px;
+    text-align: justify;
+    padding-right: 20px;
+    max-width: 100%;
+    background: #ccc;
+    box-shadow: #fffa 4px 4px 20px 2px;
+}
+
+.box_sobremim:hover {
+    scale: 105%;
+}
+
+/* Componentes filhos da Box com conteúdo */
+.box_sobremim h2 {
+    margin-bottom: 30px;
+}
+
+.box_sobremim p {
+    text-indent: 30px;
+}
+
+.box_sobremim img {
+    max-width: 100%;
+    height: 100%;
+    border-right: inherit;
+    object-fit: cover;
+}
